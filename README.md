@@ -78,9 +78,15 @@ The name is about that hum above your head: you hear it, open the popover, and s
 - macOS 15 or later.
 - Swift 6 toolchain — Command Line Tools are enough, full Xcode is not required.
 
-## 🚀 Build and install
+## 🚀 Download, build and install
 
-Ready-to-download builds will appear on <https://humupthere.ru/>. To build from source:
+**Download:** [HumUpThere-0.1.0-macos-universal.zip](https://github.com/Tatarovich/humupthere/releases/download/v0.1.0/HumUpThere-0.1.0-macos-universal.zip) — universal build for macOS 15+ (Apple Silicon and Intel).
+
+Unzip, drag `HumUpThere.app` to `/Applications`, and open it. There is no Dock icon — look for the aircraft icon in the menu bar.
+
+> **First launch:** the build is ad-hoc signed and not notarized. macOS may block it: right-click the app → **Open**, or allow it in **System Settings → Privacy & Security**.
+
+To build from source:
 
 ```bash
 git clone https://github.com/Tatarovich/humupthere.git

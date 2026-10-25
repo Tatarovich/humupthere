@@ -83,9 +83,15 @@
 - macOS 15 или новее.
 - Swift 6 toolchain — достаточно Command Line Tools, полноценный Xcode не нужен.
 
-## 🚀 Сборка и установка
+## 🚀 Скачать, собрать и установить
 
-Готовые сборки появятся на <https://humupthere.ru/>. Собрать из исходников можно так:
+**Скачать:** [HumUpThere-0.1.0-macos-universal.zip](https://github.com/Tatarovich/humupthere/releases/download/v0.1.0/HumUpThere-0.1.0-macos-universal.zip) — универсальная сборка для macOS 15+ (Apple Silicon и Intel).
+
+Распакуйте, перетащите `HumUpThere.app` в `/Applications` и запустите. Иконки в Dock не будет — ищите самолётик в строке меню.
+
+> **Первый запуск:** сборка подписана ad-hoc и не нотаризована. macOS может её заблокировать: правый клик по приложению → **«Открыть»**, либо разрешите в **«Системных настройках» → «Конфиденциальность и безопасность»**.
+
+Собрать из исходников:
 
 ```bash
 git clone https://github.com/Tatarovich/humupthere.git
