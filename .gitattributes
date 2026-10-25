@@ -1,0 +1,11 @@
+# Основной стиль: текст с переводами строк LF, бинарные файлы — как есть.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.icns binary
+*.aiff binary
+*.mp3 binary
+
+*.sh text eol=lf

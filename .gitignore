@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+*.xcuserstate
+
+# Сборка Swift Package Manager и бандл приложения
+.build/
+.swiftpm/
+dist/
+*.app
+*.dSYM/
+
+# Ключи доступа OpenSky: не публиковать
+credentials*.json
+credentials
+
+# Сайт humupthere.ru — отдельный проект, в репозиторий приложения не входит
+Site/
+
+# Временные файлы
+*.log
+*.tmp
